@@ -1,8 +1,10 @@
 CREATE TABLE transaction_info
 (
-    transaction_key  TEXT PRIMARY KEY,
-    transaction_time TIMESTAMP,
-    player_key       VARCHAR(20),
-    player_status    VARCHAR(15),
-    team_id          VARCHAR(50)
+    game_id             INT,
+    league_id           INT,
+    transaction_key     TEXT PRIMARY KEY,
+    transaction_id      INT,
+    transaction_type    TEXT,
+    transaction_status  TEXT,
+    transaction_time    TIMESTAMP
 )

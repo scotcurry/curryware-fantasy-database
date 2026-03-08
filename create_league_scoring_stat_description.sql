@@ -14,5 +14,5 @@ CREATE TABLE league_stat_description
     stat_sort_order         INT,
     stat_position_type      VARCHAR(10),
     stat_sort_position      INT,
-    PRIMARY KEY (league_stat_key_name)
+    PRIMARY KEY             (league_stat_key_name)
 )
