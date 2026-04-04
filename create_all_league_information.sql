@@ -1,3 +1,4 @@
+-- Documented, mark for inclusion.
 CREATE TABLE all_league_information
 (
     league_key              VARCHAR(20),

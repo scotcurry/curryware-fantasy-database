@@ -1,3 +1,4 @@
+-- Documented, marked for inclusion
 CREATE TABLE transaction_info
 (
     game_id             INT,
