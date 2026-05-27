@@ -1,5 +1,8 @@
--- Documented, mark for inclusion.
-CREATE TABLE all_league_information
+-- Feature flags: set to true to run the corresponding CREATE TABLE section
+\set create_all_league_information true
+
+\if :create_all_league_information
+CREATE TABLE IF NOT EXISTS all_league_information
 (
     league_key              VARCHAR(20),
     league_id               INT,
@@ -10,4 +13,5 @@ CREATE TABLE all_league_information
     start_date              DATE,
     end_week                DATE,
     season                  INT
-)
+);
+\endif
