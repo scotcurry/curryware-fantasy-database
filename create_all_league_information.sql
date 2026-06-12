@@ -1,6 +1,7 @@
 CREATE TABLE IF NOT EXISTS all_league_information (
                                                       league_key              TEXT        NOT NULL,
                                                       league_id               INTEGER     NOT NULL,
+                                                      game_id                 INTEGER     NOT NULL,
                                                       league_name             TEXT        NOT NULL,
                                                       league_logo_url         TEXT,
                                                       number_of_teams         INTEGER     NOT NULL,
