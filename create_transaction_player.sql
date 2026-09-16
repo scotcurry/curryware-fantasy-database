@@ -7,4 +7,4 @@ CREATE TABLE transaction_player (
     destination_team    TEXT,
     destination_team_id TEXT,
     PRIMARY KEY (transaction_key, player_key)
-)
+);

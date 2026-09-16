@@ -1,5 +1,6 @@
 CREATE TABLE user_info (
-         user_id       INT      PRIMARY KEY ,
-         user_name     VARCHAR(80),
-         apns_token    VARCHAR(120)
+            user_name           VARCHAR(80),
+            user_device_type    VARCHAR(80),
+            user_device_id      VARCHAR(50) PRIMARY KEY,
+            apns_token          VARCHAR(200)
 )
